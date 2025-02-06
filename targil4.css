@@ -1,0 +1,69 @@
+.hole-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 10px;
+    border: 5px solid black;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    width: 50%;
+    height: 100vh;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    border: 2px solid black;
+    width: 50%;
+    height: 100vh;
+}
+.right-up {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 2px solid black;
+}
+.right-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    height: 50vh;
+    width: 100%;
+    border: 2px dashed black;
+}
+.right-up-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    height: 50vh;
+    width: 100%;
+    border: 2px solid black;
+}
+.right-up-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    height: 50vh;
+    width: 100%;
+    border: 2px solid black;
+}
+.right-bottom-utb {
+    display: flex;
+    flex-direction: column;
+}

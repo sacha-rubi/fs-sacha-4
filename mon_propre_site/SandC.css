@@ -1,0 +1,38 @@
+body {
+    background-color: lightskyblue;
+}
+
+h1, h2, h3, li {
+    color: pink;
+}
+
+a {
+    color: #3498db; /* Couleur du texte du lien */
+    font-size: 20px; /* Taille de la police */
+    text-decoration: none; /* Enlève le souligné par défaut */
+    padding: 8px; /* Espacement autour du lien */
+    border: 5px inset #3498db; /* Bordure autour du lien */
+    border-radius: 50px; /* Coins arrondis */
+}
+
+.shadow {
+    box-shadow: bisque 10px 10px 5px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+#submit-btn {
+    background-color: bisque;
+    border-color: blueviolet;
+    border-radius: 5px; 
+}
+#submit-btn:hover {
+    background-color: purple;
+    cursor: pointer;
+    transform: scale(1.23);
+    opacity: 0.8;
+}
+
+div {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.table {
+    direction: rtl;
+    background-color: brown;
+    position: relative;
+    top: 10px;
+}
+
+.link {
+    background-color: orange;
+    border: 3px groove purple;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 78%;
+}
+.link-back{
+    
+    background-color: orange;
+    border: 3px groove purple;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 7px;
+    margin-right: 78%;
+    position: fixed;
+    top: 93%; 
+}
